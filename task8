@@ -1,0 +1,12 @@
+p = int(input())
+
+result = [str(p)]
+
+while p != 1:
+    if p % 2 != 0:
+        p = 3 * p + 1
+    else:
+        p = p // 2
+    result.append(str(p))
+
+print("".join(result))
