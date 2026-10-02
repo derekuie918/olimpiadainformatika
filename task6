@@ -1,0 +1,9 @@
+H = int(input())
+a = int(input())
+b = int(input())
+
+if H <= a:
+    print(1)
+else:
+    d = (H - a + (a - b) - 1) // (a - b) + 1
+    print(d)
