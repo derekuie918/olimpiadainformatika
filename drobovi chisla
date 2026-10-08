@@ -1,0 +1,9 @@
+n = int(input())
+
+result = 1.0
+
+for i in range(n):
+    number = (11 + i) / 10
+    result *=  number
+
+print(f"{result:.6f}")
