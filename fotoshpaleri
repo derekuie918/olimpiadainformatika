@@ -1,0 +1,7 @@
+H, W, L = map(int, input().split())
+
+lines = L // H
+
+total = (W + lines - 1) // lines
+
+print(total)
